@@ -1,2 +1,3 @@
 # Depository3
-Old Naive Foundational Projects
+Adam Smith
+Old Naive Foundational Projects in C++
