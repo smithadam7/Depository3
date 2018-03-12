@@ -1,0 +1,7 @@
+﻿  VehicleGarage_Search.cpp
+c:\users\adam\documents\visual studio 2015\projects\csci2312_final_smith_adam\finalproject\finalproject\vehiclegarage_search.h(160): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+c:\users\adam\documents\visual studio 2015\projects\csci2312_final_smith_adam\finalproject\finalproject\vehiclegarage_search.cpp(73): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\csci2312_final_smith_adam\finalproject\finalproject\vehiclegarage_search.cpp(218): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+c:\users\adam\documents\visual studio 2015\projects\csci2312_final_smith_adam\finalproject\finalproject\vehiclegarage_search.h(237): warning C4715: 'csci2312::VehicleFactory::newVehicle': not all control paths return a value
+  FinalProject.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\CSCI2312_Final_Smith_Adam\FinalProject\Debug\FinalProject.exe
+  FinalProject.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\CSCI2312_Final_Smith_Adam\FinalProject\Debug\FinalProject.pdb (Partial PDB)
