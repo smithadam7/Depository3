@@ -1,0 +1,10 @@
+﻿  vehicle.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+c:\users\adam\documents\visual studio 2015\projects\pa3\main\main\functions.h(176): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\pa3\main\main\functions.h(203): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\pa3\main\main\functions.h(257): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\PA3\main\Debug\main.exe
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\PA3\main\Debug\main.pdb (Full PDB)

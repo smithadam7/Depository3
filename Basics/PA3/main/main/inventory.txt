@@ -1,0 +1,21 @@
+85ACD897W
+Jaguar
+F-TYPE R
+2017
+105400.00
+dealer1
+address1
+GGGGGG
+BMW
+M3
+2016
+77000.00
+dealer2
+address2
+AAAAAA
+Bugatti
+Chiron
+2016
+26000.00
+dealer3
+address3
