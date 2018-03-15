@@ -1,0 +1,8 @@
+Adam Smith
+HW4
+Partial Asymptotic Analysis
+
+Operator[] is a constant so it would be O(1)
+pop_back is linear single for loop so it would be O(n)
+push_back is linear single for loop so it would be O(n)
+search is linear single for loop so it would be O(n)
