@@ -1,0 +1,4 @@
+﻿  smith.cpp
+c:\users\adam\documents\visual studio 2015\projects\smith\smith\smith.h(153): warning C4101: 'i': unreferenced local variable
+  smith.vcxproj -> C:\Users\Adam\documents\visual studio 2015\Projects\smith\Debug\smith.exe
+  smith.vcxproj -> C:\Users\Adam\documents\visual studio 2015\Projects\smith\Debug\smith.pdb (Full PDB)
