@@ -1,0 +1,4 @@
+﻿  GameOfLife.cpp
+c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\gameoflife.cpp(104): warning C4018: '<': signed/unsigned mismatch
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\CSCI2312_PA1_Smith_Adam\main\Debug\main.exe
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\CSCI2312_PA1_Smith_Adam\main\Debug\main.pdb (Full PDB)

@@ -1,0 +1,11 @@
+﻿  guess.cpp
+c:\users\adam\documents\visual studio 2015\projects\guessinggame\main\main\guess.cpp(18): warning C4101: 'hold': unreferenced local variable
+c:\users\adam\documents\visual studio 2015\projects\guessinggame\main\main\guess.cpp(20): warning C4101: 'range': unreferenced local variable
+c:\users\adam\documents\visual studio 2015\projects\guessinggame\main\main\guess.cpp(61): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\adam\documents\visual studio 2015\projects\guessinggame\main\main\guess.cpp(60): warning C4101: 'k': unreferenced local variable
+c:\users\adam\documents\visual studio 2015\projects\guessinggame\main\main\guess.cpp(60): warning C4101: 'hold2': unreferenced local variable
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\guessinggame\main\Debug\main.exe
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\guessinggame\main\Debug\main.pdb (Full PDB)

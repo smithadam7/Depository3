@@ -1,0 +1,11 @@
+﻿  GameOfLife.cpp
+GameOfLife.cpp(75): warning C4305: 'argument': truncation from 'char' to 'bool'
+GameOfLife.cpp(92): warning C4018: '<': signed/unsigned mismatch
+  stdafx.cpp
+  Generating code
+  0 of 176 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    34 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\CSCI2312_PA1_Smith_Adam\main\Release\main.exe
+  main.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\CSCI2312_PA1_Smith_Adam\main\Release\main.pdb (Full PDB)

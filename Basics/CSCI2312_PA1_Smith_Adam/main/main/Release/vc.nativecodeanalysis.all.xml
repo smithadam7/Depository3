@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+      <FILENAME>gameoflife.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'seeds'.</DESCRIPTION>
+    <FUNCTION>csci2312::GameOfLife::seedBoard</FUNCTION>
+    <DECORATED>?seedBoard@GameOfLife@csci2312@@QAEHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAY0BO@D@Z</DECORATED>
+    <FUNCLINE>44</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'seeds' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '!infile.eof()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'seeds' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+      <FILENAME>gameoflife.cpp</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'urrentLife[m-1]':  the readable size is '30' bytes, but '-1' bytes may be read.</DESCRIPTION>
+    <FUNCTION>csci2312::GameOfLife::live</FUNCTION>
+    <DECORATED>?live@GameOfLife@csci2312@@QAEXQAY0BO@D@Z</DECORATED>
+    <FUNCLINE>101</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'urrentLife[m-1][-1]', (readable range is 0 to 29)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+      <FILENAME>gameoflife.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'urrentLife[m]':  the readable size is '30' bytes, but '-1' bytes may be read.</DESCRIPTION>
+    <FUNCTION>csci2312::GameOfLife::live</FUNCTION>
+    <DECORATED>?live@GameOfLife@csci2312@@QAEXQAY0BO@D@Z</DECORATED>
+    <FUNCLINE>101</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'m' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'm&lt;MAX_BOARD')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'n&lt;MAX_BOARD')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'urrentLife[m-1][n-1]==111' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'urrentLife[m-1][n]==111' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'urrentLife[m-1][n+1]==111' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'urrentLife[m][-1]', (readable range is 0 to 29)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+      <FILENAME>gameoflife.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'urrentLife[m+1]':  the readable size is '30' bytes, but '-1' bytes may be read.</DESCRIPTION>
+    <FUNCTION>csci2312::GameOfLife::live</FUNCTION>
+    <DECORATED>?live@GameOfLife@csci2312@@QAEXQAY0BO@D@Z</DECORATED>
+    <FUNCLINE>101</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'m' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'm&lt;MAX_BOARD')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'n&lt;MAX_BOARD')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'urrentLife[m-1][n-1]==111' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'urrentLife[m-1][n]==111' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'urrentLife[m-1][n+1]==111' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\adam\documents\visual studio 2015\projects\csci2312_pa1_smith_adam\main\main\</FILEPATH>
+        <FILENAME>gameoflife.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'urrentLife[m+1][-1]', (readable range is 0 to 29)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
