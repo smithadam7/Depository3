@@ -1,0 +1,4 @@
+﻿  vectorsAndClasses.cpp
+c:\users\adam\documents\visual studio 2015\projects\vectorsandclasses\vectorsandclasses\vectorsandclasses.cpp(89): warning C4018: '<': signed/unsigned mismatch
+  vectorsAndClasses.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\vectorsAndClasses\Debug\vectorsAndClasses.exe
+  vectorsAndClasses.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\vectorsAndClasses\Debug\vectorsAndClasses.pdb (Full PDB)
